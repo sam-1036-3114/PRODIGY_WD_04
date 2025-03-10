@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G. Sambasivarao - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 0.5em 0;
+            font-size: 1.2em;
+        }
+
+        .container {
+            width: 80%;
+            margin: 2em auto;
+            overflow: hidden;
+        }
+
+        section {
+            margin-bottom: 2em;
+            background-color: white;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 0.5em;
+        }
+
+        .project {
+            margin-bottom: 1.5em;
+        }
+
+        .project h3 {
+            margin-bottom: 0.5em;
+            color: #555;
+        }
+
+        .project p {
+            margin-bottom: 1em;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 3em;
+        }
+
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills-list li {
+            display: inline-block;
+            background-color: #e0e0e0;
+            padding: 0.5em 1em;
+            margin: 0.5em;
+            border-radius: 5px;
+        }
+
+        .profile-pic{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 10px auto 20px auto;
+        }
+
+        .header-content{
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .button-nav {
+            text-align: center;
+            margin-bottom: 2em;
+        }
+
+        .button-nav button {
+            padding: 1em 2em;
+            margin: 0 1em;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button-nav button:hover {
+            background-color: #0056b3;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1em;
+        }
+
+        .logo-img {
+            max-width: 50px;
+            height: auto;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <img src="SAMJAM123-removebg-preview.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>G. Sambasivarao</h1>
+            <p>B.Tech Student - AI/ML & Web Development</p>
+        </div>
+    </header>
+
+    <div class="button-nav">
+        <button onclick="scrollToSection('about')">About</button>
+        <button onclick="scrollToSection('skills')">Skills</button>
+        <button onclick="scrollToSection('experience')">Experience</button>
+        <button onclick="scrollToSection('education')">Education</button>
+        <button onclick="scrollToSection('achievements')">Achievements</button>
+        <button onclick="scrollToSection('additional')">Additional Info</button>
+    </div>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>A highly motivated B.Tech student specializing in Artificial Intelligence & Machine Learning, with solid skills in Python, Java, C, Full-Stack Web Development, and Data Structures & Algorithms. Seeking an internship in AI/ML or software development to apply technical skills, learn, and grow professionally.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>Java</li>
+                <li>C</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Communication</li>
+                <li>Teamwork</li>
+                <li>Problem-solving</li>
+                <li>Adaptability</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <div class="project">
+                <h3>Full Stack Web Developer Intern</h3>
+                <p>EduSkills Virtual Internship - November 2024 - December 2024</p>
+                <p>Built dynamic web applications using HTML, CSS, JavaScript, and Node.js. Implemented front-end and back-end functionalities, improving overall user experience. Worked with MongoDB to store and retrieve data efficiently.</p>
+            </div>
+            <div class="project">
+                <h3>ProdigyInfotech Intern</h3>
+                <p>ProdigyInfotech Virtual Internship - March 2025 </p>
+                <p>Built dynamic web applications using HTML, CSS, JavaScript, and Node.js. Implemented front-end and back-end functionalities, improving overall user experience. Worked with MongoDB to store and retrieve data efficiently.</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="project">
+                <h3>B.Tech in Computer Science Engineering</h3>
+                <p>K.K.R. & K.S.R. Institute of Technology and Sciences, Vinjinampadu, Guntur</p>
+                <p>Expected Graduation: 2027, Current CGPA: 8.5/10</p>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <div class="project">
+                <h3>Leadership</h3>
+                <p>Led a team in hackathons and coding challenges, fostering collaboration and problem-solving.</p>
+            </div>
+            <div class="project">
+                <h3>Academic Excellence</h3>
+                <p>Consistently maintained a CGPA of 8.5/10.</p>
+            </div>
+        </section>
+
+        <section id="additional">
+            <h2>Additional Information</h2>
+            <p>Technical Skills: Project Management, Structural Analysis, Robotics and Automation.</p>
+            <p>Languages: English, Telugu, Hindi.</p>
+            <p>Hobbies: Listening to music, watching cricket, athlete.</p>
+        </section>
+    </div>
+
+    <footer class="contact-info">
+        <a href="mailto:sambasivaraogandikota052@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/sam13113" target="_blank">LinkedIn</a>
+        <a href="https://github.com/sam-1036-3114" target="_blank">GitHub</a>
+        <p>Phone: 6305986529</p>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+</body>
+</html>
